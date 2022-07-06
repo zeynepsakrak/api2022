@@ -42,7 +42,7 @@ public class Get03 extends BaseUrls {
         //1. Yol
         response.then().assertThat().statusCode(200).
                 contentType("application/json").
-                body("title",equalTo("et itaque necessitatibus maxime molestiae qui quas velitX")).
+                body("title",equalTo("et itaque necessitatibus maxime molestiae qui quas velit")).
                 body("completed", equalTo(false)).
                 body("userId", equalTo(2));
 
