@@ -1,3 +1,6 @@
+package get_requests;
+
+import base_urls.BaseUrls;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Test;

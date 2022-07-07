@@ -1,10 +1,12 @@
+package base_urls;
+
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import org.junit.Before;
 
-public class BaseUrls {
+public class JsonPlaceHolderBaseUrl {
 
-    public RequestSpecification spec;
+    protected RequestSpecification spec;
 
     // @Before annotation'ı kullandığımız methodlar her  Test metodondan önce çalıştırılır.
     @Before
